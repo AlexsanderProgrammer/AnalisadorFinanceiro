@@ -13,8 +13,8 @@ from plotly import graph_objs as go
 
 ############################# PAGINA INICIAL ##############################
 st.title('Analisador Financeiro')
-st.subheader('Seja muito Bem vindo!!!')
-st.subheader('O que deseja analizar hoje?')
+st.subheader('Bem vindo!!!')
+st.subheader('O que deseja analisar hoje?')
 
 acoes = st.checkbox('Ações')
 crypto = st.checkbox('Cryptomoedas')
